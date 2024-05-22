@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('bea-iconfont.ttf?t=1713419995271') format('truetype');
+}
+
+.bea-iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background-color: burlywood;
+}
+
+.bea-icon-dingdan:before {
+  content: "\101a9";
+}
+
+.bea__icon--close:before {
+  content: "\e68c";
+}
+
+// modal close icon
+.beamodal__icon--close::before{
+  &:extend(.bea__icon--close:before);
+  position: absolute;
+  line-height: 1;
+}
+

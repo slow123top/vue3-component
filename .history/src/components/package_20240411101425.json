@@ -1,0 +1,12 @@
+{
+  "name": "bea-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bea-ui.js",
+  "module":"bea-ui.umd.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "huyuyang",
+  "license": "ISC"
+}
